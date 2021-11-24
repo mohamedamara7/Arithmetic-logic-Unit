@@ -1,4 +1,4 @@
-# Arithmetic-logic-unit
+# Arithmetic-logic-Unit
 -  Implementation of ALU unit in microprocessor and other digital circuits using VHDL.
 -  Designs requirements are
    -  8-bit adder/subtractor based on ripple carry adder.
