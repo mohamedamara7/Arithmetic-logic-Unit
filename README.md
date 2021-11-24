@@ -7,6 +7,6 @@
    -  8-bit sequential multiplication.
    -  Radix-2 Booth’s multiplier for multiplying 8-bit operands.
    -  Non-restoring division circuit.
-   -  8-bit ALU with inputs (A , B) and Z as output which is capable of carrying out 8 operation(ADD,SUB,MULT,DIV,OR,AND,Not,XOR).
+   -  8-bit ALU with inputs (A , B) and Z as output which is capable of carrying out 8 operations(ADD,SUB,MULT,DIV,OR,AND,Not,XOR).
    -  Ripple counter with d and t flip flops.
 -  You can find circuits designs in Circuit-Designs directory.
