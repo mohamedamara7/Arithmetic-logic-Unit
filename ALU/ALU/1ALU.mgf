@@ -1,0 +1,136 @@
+V 000027 55 333 0 alu_pack
+(_unit VHDL (alu_pack 0 7 )
+	(_version v147)
+	(_time 1637756013008 2021.11.24 14:13:33)
+	(_source (\./src/ALU_Package.vhd\))
+	(_use (std(standard)))
+	(_parameters dbg)
+	(_code 76772377232027632072662c26)
+	(_object
+		(_type (_internal alu_type 0 8 (_enum1 no add sub inc dec zero shl shr rotl rotr (_to (i 0)(i 9)))))
+	)
+)
+V 000054 55 304           1637756013010 alu_pack_arch
+(_unit VHDL (alu_pack_entity 0 4 (alu_pack_arch 0 11 ))
+	(_version v147)
+	(_time 1637756013011 2021.11.24 14:13:33)
+	(_source (\./src/ALU_Package.vhd\))
+	(_use (std(standard))(ieee(std_logic_1164)))
+	(_parameters dbg)
+	(_code 76772377232027632079662c26)
+	(_entity
+		(_time 1637756012992)
+	)
+)
+V 000049 55 1773          1637756071248 alu_arch
+(_unit VHDL (alu_entity 0 7 (alu_arch 0 13 ))
+	(_version v147)
+	(_time 1637756071249 2021.11.24 14:14:31)
+	(_source (\./src/ALU.vhd\))
+	(_use (.(alu_pack))(std(standard))(ieee(std_logic_1164))(ieee(std_logic_unsigned))(ieee(numeric_std)))
+	(_parameters dbg)
+	(_code f0f0f1a0a3a6a1e5a4f1e5aaf4)
+	(_entity
+		(_time 1637756071246)
+	)
+	(_object
+		(_type (_internal ~STD_LOGIC_VECTOR{7~downto~0}~12 0 8 (_array ~extieee.std_logic_1164.STD_LOGIC ((_downto (i 7)(i 0))))))
+		(_port (_internal a ~STD_LOGIC_VECTOR{7~downto~0}~12 0 8 (_entity (_in ))))
+		(_port (_internal b ~STD_LOGIC_VECTOR{7~downto~0}~12 0 8 (_entity (_in ))))
+		(_port (_internal sel ~extalu.alu_pack.alu_type 0 9 (_entity (_in ))))
+		(_type (_internal ~STD_LOGIC_VECTOR{7~downto~0}~122 0 10 (_array ~extieee.std_logic_1164.STD_LOGIC ((_downto (i 7)(i 0))))))
+		(_port (_internal z ~STD_LOGIC_VECTOR{7~downto~0}~122 0 10 (_entity (_out ))))
+		(_process
+			(line__15(_architecture 0 0 15 (_process (_simple)(_target(3))(_sensitivity(0)(1)(2)))))
+		)
+		(_subprogram
+			(_external resolved (ieee std_logic_1164 15))
+		)
+		(_type (_external ~extieee.std_logic_1164.STD_ULOGIC (ieee std_logic_1164 STD_ULOGIC)))
+		(_type (_external ~extieee.std_logic_1164.STD_LOGIC (ieee std_logic_1164 STD_LOGIC)))
+		(_type (_external ~extieee.std_logic_1164.STD_LOGIC_VECTOR (ieee std_logic_1164 STD_LOGIC_VECTOR)))
+		(_type (_external ~extalu.alu_pack.alu_type (. alu_pack alu_type)))
+		(_type (_external ~extSTD.STANDARD.BIT (std STANDARD BIT)))
+		(_type (_external ~extSTD.STANDARD.BIT_VECTOR (std STANDARD BIT_VECTOR)))
+		(_type (_external ~extieee.NUMERIC_STD.SIGNED (ieee NUMERIC_STD SIGNED)))
+	)
+	(_static
+		(33686018 50463234 )
+		(33686018 33686018 )
+	)
+	(_model . alu_arch 1 -1
+	)
+)
+V 000056 55 2423          1637756260773 TB_ARCHITECTURE
+(_unit VHDL (alu_entity_tb 0 10 (tb_architecture 0 13 ))
+	(_version v147)
+	(_time 1637756260774 2021.11.24 14:17:40)
+	(_source (\./src/TestBench/alu_entity_TB.vhd\))
+	(_use (std(standard))(.(alu_pack))(ieee(numeric_std))(ieee(std_logic_1164))(ieee(std_logic_unsigned)))
+	(_parameters dbg)
+	(_code 4c4e484e4c1a1d591f4c591648)
+	(_entity
+		(_time 1637756260771)
+	)
+	(_component
+		(alu_entity
+			(_object
+				(_port (_internal a ~STD_LOGIC_VECTOR{7~downto~0}~13 0 17 (_entity (_in ))))
+				(_port (_internal b ~STD_LOGIC_VECTOR{7~downto~0}~132 0 18 (_entity (_in ))))
+				(_port (_internal sel ~extalu.alu_pack.alu_type 0 19 (_entity (_in ))))
+				(_port (_internal z ~STD_LOGIC_VECTOR{7~downto~0}~134 0 20 (_entity (_out ))))
+			)
+		)
+	)
+	(_instantiation UUT 0 35 (_component alu_entity )
+		(_port
+			((a)(a))
+			((b)(b))
+			((sel)(sel))
+			((z)(z))
+		)
+		(_use (_entity . alu_entity)
+		)
+	)
+	(_object
+		(_type (_internal ~STD_LOGIC_VECTOR{7~downto~0}~13 0 17 (_array ~extieee.std_logic_1164.STD_LOGIC ((_downto (i 7)(i 0))))))
+		(_type (_internal ~STD_LOGIC_VECTOR{7~downto~0}~132 0 18 (_array ~extieee.std_logic_1164.STD_LOGIC ((_downto (i 7)(i 0))))))
+		(_type (_internal ~STD_LOGIC_VECTOR{7~downto~0}~134 0 20 (_array ~extieee.std_logic_1164.STD_LOGIC ((_downto (i 7)(i 0))))))
+		(_type (_internal ~STD_LOGIC_VECTOR{7~downto~0}~136 0 24 (_array ~extieee.std_logic_1164.STD_LOGIC ((_downto (i 7)(i 0))))))
+		(_signal (_internal a ~STD_LOGIC_VECTOR{7~downto~0}~136 0 24 (_architecture (_uni ))))
+		(_signal (_internal b ~STD_LOGIC_VECTOR{7~downto~0}~136 0 25 (_architecture (_uni ))))
+		(_signal (_internal sel ~extalu.alu_pack.alu_type 0 26 (_architecture (_uni ))))
+		(_signal (_internal z ~STD_LOGIC_VECTOR{7~downto~0}~136 0 28 (_architecture (_uni ))))
+		(_process
+			(line__44(_architecture 0 0 44 (_process (_wait_for)(_target(0)(1)(2)))))
+		)
+		(_subprogram
+			(_external resolved (ieee std_logic_1164 15))
+		)
+		(_type (_external ~extieee.std_logic_1164.STD_ULOGIC (ieee std_logic_1164 STD_ULOGIC)))
+		(_type (_external ~extieee.std_logic_1164.STD_LOGIC (ieee std_logic_1164 STD_LOGIC)))
+		(_type (_external ~extieee.std_logic_1164.STD_LOGIC_VECTOR (ieee std_logic_1164 STD_LOGIC_VECTOR)))
+		(_type (_external ~extalu.alu_pack.alu_type (. alu_pack alu_type)))
+	)
+	(_static
+		(50463490 33751810 )
+		(33686018 33751554 )
+	)
+	(_model . TB_ARCHITECTURE 1 -1
+	)
+)
+V 000043 55 453 0 testbench_for_alu_entity
+(_configuration VHDL (testbench_for_alu_entity 0 89 (alu_entity_tb))
+	(_version v147)
+	(_time 1637756260787 2021.11.24 14:17:40)
+	(_source (\./src/TestBench/alu_entity_TB.vhd\))
+	(_use (std(standard))(.(alu_pack))(ieee(numeric_std))(ieee(std_logic_1164))(ieee(std_logic_unsigned)))
+	(_parameters dbg)
+	(_code 5b585a580c0d0c4c5f5a49010f)
+	(_architecture TB_ARCHITECTURE
+		(_instantiation UUT
+			(_entity . alu_entity alu_arch
+			)
+		)
+	)
+)

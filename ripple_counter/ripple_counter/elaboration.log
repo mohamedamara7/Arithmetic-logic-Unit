@@ -1,0 +1,19 @@
+elbread.dll ver. 1.0.5.375 Wed Nov 24 14:39:36 2021
+
+
+--------------------------------------------
+Entity    | Architecture    | Library     
+--------------------------------------------
+r_cnt_tb  | tb_architecture | ripple_counter
+r_cnt     | structural      | ripple_counter
+inverter  | behav           | ripple_counter
+dff       | behav           | ripple_counter
+--------------------------------------------
+
+-------------------------
+Package         | Library
+-------------------------
+standard        | std
+textio          | std
+std_logic_1164  | ieee
+-------------------------

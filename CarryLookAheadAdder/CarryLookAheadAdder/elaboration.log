@@ -1,0 +1,21 @@
+elbread.dll ver. 1.0.5.375 Wed Nov 24 13:13:54 2021
+
+
+---------------------------------------------------
+Entity      | Architecture    | Library          
+---------------------------------------------------
+cla_16b_tb  | tb_architecture | CarryLookAheadAdder
+cla_16b     | structural      | carrylookaheadadder
+cla_4b      | structural      | carrylookaheadadder
+clag4       | df              | carrylookaheadadder
+bc          | df              | carrylookaheadadder
+clag3       | df              | carrylookaheadadder
+---------------------------------------------------
+
+-------------------------
+Package         | Library
+-------------------------
+standard        | std
+textio          | std
+std_logic_1164  | ieee
+-------------------------

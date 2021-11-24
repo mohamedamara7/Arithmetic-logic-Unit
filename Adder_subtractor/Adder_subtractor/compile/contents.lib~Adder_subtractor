@@ -1,0 +1,8 @@
+17
+~E 1 "./src/TestBench/as_TB.vhd" 4 as_tb
+~A 1 "./src/TestBench/as_TB.vhd" 6 tb_architecture
+~E 1 "./src/Adder_Subtractor.vhd" 4 as
+~A 1 "./src/Adder_Subtractor.vhd" 11 structural
+~E 1 "./src/FullAdder.vhd" 4 fa
+~A 1 "./src/FullAdder.vhd" 9 df
+~C 1 "./src/TestBench/as_TB.vhd" 58 testbench_for_as

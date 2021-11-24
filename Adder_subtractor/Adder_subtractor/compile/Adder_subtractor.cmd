@@ -1,0 +1,1 @@
+-w -s "C:\My_Designs\Adder_subtractor\library.cfg"  -j "C:\My_Designs\Adder_subtractor\Adder_subtractor\projlib.cfg"  -d "C:\My_Designs\Adder_subtractor\Adder_subtractor\compile"   -work adder_subtractor  -dbg -e 100 -2002 "C:\\My_Designs\\Adder_subtractor\\Adder_subtractor\\src\\TestBench\\as_TB.vhd" 

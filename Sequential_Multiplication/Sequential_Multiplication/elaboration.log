@@ -1,0 +1,18 @@
+elbread.dll ver. 1.0.5.375 Wed Nov 24 13:53:40 2021
+
+
+---------------------------------------------------------
+Entity      | Architecture    | Library                
+---------------------------------------------------------
+seq_mul_tb  | tb_architecture | Sequential_Multiplication
+seq_mul     | behavioral      | sequential_multiplication
+---------------------------------------------------------
+
+-------------------------
+Package         | Library
+-------------------------
+standard        | std
+textio          | std
+std_logic_1164  | ieee
+numeric_std     | ieee
+-------------------------

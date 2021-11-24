@@ -1,0 +1,46 @@
+[Project]
+Current Flow=Generic
+VCS=0
+version=1
+Current Config=compile
+
+[Configurations]
+compile=non_restoring_division
+
+[Library]
+non_restoring_division=.\non_restoring_division.LIB
+
+[$LibMap$]
+non_restoring_division=.
+Active_lib=
+
+[Settings]
+FLOW_TYPE=HDL
+LANGUAGE=VHDL
+REFRESH_FLOW=1
+FLOWTOOLS=NONE
+FAMILY=
+
+[Groups]
+TestBench=1
+
+[HierarchyViewer]
+SortInfo=u
+HierarchyInformation=non_res|behavioral|0 non_res_tb|tb_architecture|0 
+ShowHide=ShowTopLevel
+Selected=
+
+[Files]
+/non_restoring_division.vhd=-1
+/untitled.asdb=-1
+/..\..\..\Booth_multiplier\Booth_multiplier\src\untitled.awc=-1
+TestBench/non_res_TB.vhd=-1
+TestBench/non_res_TB_runtest.do=-1
+
+[Files.Data]
+.\src\non_restoring_division.vhd=VHDL Source Code
+.\src\untitled.asdb=Accelerated Waveform File
+.\..\..\Booth_multiplier\Booth_multiplier\src\untitled.awc=Accelerated Waveform Configuration
+.\src\TestBench\non_res_TB.vhd=VHDL Test Bench
+.\src\TestBench\non_res_TB_runtest.do=Macro
+

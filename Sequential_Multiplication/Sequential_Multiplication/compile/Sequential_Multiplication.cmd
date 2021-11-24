@@ -1,0 +1,1 @@
+-w -s "c:\My_Designs\Sequential_Multiplication\library.cfg"  -j "c:\My_Designs\Sequential_Multiplication\Sequential_Multiplication\projlib.cfg"  -d "c:\My_Designs\Sequential_Multiplication\Sequential_Multiplication\compile"   -work Sequential_Multiplication  -dbg -e 100 -2002 "c:\\My_Designs\\Sequential_Multiplication\\Sequential_Multiplication\\src\\TestBench\\seq_mul_TB.vhd" 

@@ -1,0 +1,1 @@
+-w -s "C:\My_Designs\ripple_counter\library.cfg"  -j "C:\My_Designs\ripple_counter\ripple_counter\projlib.cfg"  -d "C:\My_Designs\ripple_counter\ripple_counter\compile"   -work ripple_counter  -dbg -e 100 -2002 "C:\\My_Designs\\ripple_counter\\ripple_counter\\src\\ripple_cnt_dff.vhd" 

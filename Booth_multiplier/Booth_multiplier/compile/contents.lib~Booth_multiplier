@@ -1,0 +1,6 @@
+12
+~E 1 "./src/TestBench/booth_TB.vhd" 5 booth_tb
+~A 1 "./src/TestBench/booth_TB.vhd" 7 tb_architecture
+~E 1 "./src/Booth_Multiplier.vhd" 5 booth
+~A 1 "./src/Booth_Multiplier.vhd" 10 behavioral
+~C 1 "./src/TestBench/booth_TB.vhd" 46 testbench_for_booth

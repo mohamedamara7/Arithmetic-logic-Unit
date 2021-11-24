@@ -1,0 +1,50 @@
+timestamp=1637750897209
+
+[as]
+A/structural=21|./src/Adder_Subtractor.vhd|11|1*1227
+B/structural=3*1086
+I=0*1451
+I/structural=0*2636
+M=11|0|v147|1637750794594|./src/Adder_Subtractor.vhd|0*1112*0x0919983ccea1748973a91515c3fc3ba52a32c93d|0*1375*0x7bd7e13dc0415552f89596087806a8cf
+M/structural=21|0|v147|1637750794598|./src/Adder_Subtractor.vhd|0*1547*0xf779f7b73761020b96fca54c47d5751b9349c6fe|0*2546*0x7bd7e13dc0415552f89596087806a8cf
+R=./src/Adder_Subtractor.vhd|4
+
+[as_tb]
+A/tb_architecture=A/TB_ARCHITECTURE 21|./src/TestBench/as_TB.vhd|6|1*5959
+B/tb_architecture=3*5032
+I=0*3071
+I/tb_architecture=I/TB_ARCHITECTURE 0*4123
+M=11|0|v147|1637750897109|./src/TestBench/as_TB.vhd|0*2849*0x2fa72fa7b1eaaabe5246dc872239318b17bdb09c|0*2993*0x7bd7e13dc0415552f89596087806a8cf
+M/tb_architecture=M/TB_ARCHITECTURE 21|0|v147|1637750897119|./src/TestBench/as_TB.vhd|0*3170*0xcf54a65b79f51ac8159f79e8a591f142118dd054|0*4026*0x7bd7e13dc0415552f89596087806a8cf
+R=./src/TestBench/as_TB.vhd|4
+
+[fa]
+A/df=21|./src/FullAdder.vhd|9|1*0
+B/df=3*0
+I=0*433
+I/df=0*776
+M=11|0|v147|1637750703042|./src/FullAdder.vhd|0*176*0xba987ded0bc0be5f4dba4222007f29935a89e53a|0*364*0x7bd7e13dc0415552f89596087806a8cf
+M/df=21|0|v147|1637750703044|./src/FullAdder.vhd|0*529*0xbb27fb7fe196c20dd974fffe4e96d722d78353e0|0*701*0x7bd7e13dc0415552f89596087806a8cf
+R=./src/FullAdder.vhd|4
+
+[testbench_for_as]
+E=1*8717
+I=0*4613
+M=2|0|v147|1637750897123|./src/TestBench/as_TB.vhd|0*4288*0xfabc96d8a127adb3a0d9001c7c4ec5888bd9558d|0*4516*0x7bd7e13dc0415552f89596087806a8cf
+R=./src/TestBench/as_TB.vhd|58
+
+[~A]
+ModifyID=17
+Version=73
+
+[~MFT]
+0=23|0Adder_subtractor.mgf|4613|0
+1=3|1Adder_subtractor.mgf|8717|0
+3=2|3Adder_subtractor.mgf|5032|0
+
+[~U]
+as=11|0*875|
+as_tb=11|0*2793|
+fa=11|0*0|
+testbench_for_as=TESTBENCH_FOR_as 2||
+

@@ -1,0 +1,6 @@
+12
+~E 1 "./src/TestBench/seq_mul_TB.vhd" 5 seq_mul_tb
+~A 1 "./src/TestBench/seq_mul_TB.vhd" 7 tb_architecture
+~E 1 "./src/Sequential_Multiplication.vhd" 5 seq_mul
+~A 1 "./src/Sequential_Multiplication.vhd" 10 behavioral
+~C 1 "./src/TestBench/seq_mul_TB.vhd" 46 testbench_for_seq_mul

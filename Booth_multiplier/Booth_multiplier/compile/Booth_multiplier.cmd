@@ -1,0 +1,1 @@
+-w -s "c:\My_Designs\Booth_multiplier\library.cfg"  -j "c:\My_Designs\Booth_multiplier\Booth_multiplier\projlib.cfg"  -d "c:\My_Designs\Booth_multiplier\Booth_multiplier\compile"   -work Booth_multiplier  -dbg -e 100 -2002 "c:\\My_Designs\\Booth_multiplier\\Booth_multiplier\\src\\TestBench\\booth_TB.vhd" 

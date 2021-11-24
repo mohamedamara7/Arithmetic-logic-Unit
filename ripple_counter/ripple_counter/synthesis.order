@@ -1,0 +1,5 @@
+i<>.\src\t_flipflop.vhd
+i<>.\src\ripple_cnt.vhd
+i<>.\src\inverter.vhd
+i<>.\src\dff.vhd
+i<>.\src\ripple_cnt_dff.vhd

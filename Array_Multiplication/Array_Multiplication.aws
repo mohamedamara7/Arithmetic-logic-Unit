@@ -1,0 +1,12 @@
+[Version]
+Version=8.1
+[Designs]
+array_multiplication=.\Array_Multiplication\Array_Multiplication.adf
+[Expand]
+array_multiplication=1
+[Browser]
+sort=order
+mode=none
+[Order]
+order=1
+macro=

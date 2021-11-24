@@ -1,0 +1,19 @@
+elbread.dll ver. 1.0.5.375 Wed Nov 24 13:49:29 2021
+
+
+-------------------------------------------------------
+Entity       | Architecture      | Library           
+-------------------------------------------------------
+uam_tb       | tb_architecture   | Array_Multiplication
+uam          | df                | array_multiplication
+cell_entity  | cell_architecture | array_multiplication
+fa           | df                | array_multiplication
+-------------------------------------------------------
+
+-------------------------
+Package         | Library
+-------------------------
+standard        | std
+textio          | std
+std_logic_1164  | ieee
+-------------------------

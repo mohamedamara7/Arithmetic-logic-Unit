@@ -1,0 +1,50 @@
+[Project]
+Current Flow=Generic
+VCS=0
+version=1
+Current Config=compile
+
+[Configurations]
+compile=Array_Multiplication
+
+[Library]
+Array_Multiplication=.\Array_Multiplication.LIB
+
+[$LibMap$]
+Array_Multiplication=.
+Active_lib=
+
+[Settings]
+FLOW_TYPE=HDL
+LANGUAGE=VHDL
+REFRESH_FLOW=1
+FLOWTOOLS=NONE
+FAMILY=
+
+[Groups]
+TestBench=1
+
+[HierarchyViewer]
+SortInfo=u
+HierarchyInformation=uam|df|0 uam_tb|tb_architecture|0 
+ShowHide=ShowTopLevel
+Selected=
+
+[Files]
+/Combinatorial_Array_Multiplier.vhd=-1
+/Full_Adder.vhd=-1
+/Cell.vhd=-1
+/untitled.asdb=-1
+/..\..\..\CarryLookAheadAdder\CarryLookAheadAdder\src\untitled.awc=-1
+TestBench/uam_TB.vhd=-1
+TestBench/uam_TB_runtest.do=-1
+
+[Files.Data]
+.\src\Combinatorial_Array_Multiplier.vhd=VHDL Source Code
+.\src\Full_Adder.vhd=VHDL Source Code
+.\src\Cell.vhd=VHDL Source Code
+.\src\untitled.asdb=Accelerated Waveform File
+.\..\..\CarryLookAheadAdder\CarryLookAheadAdder\src\untitled.awc=Accelerated Waveform Configuration
+.\src\TestBench\uam_TB.vhd=VHDL Test Bench
+.\src\TestBench\uam_TB_runtest.do=Macro
+

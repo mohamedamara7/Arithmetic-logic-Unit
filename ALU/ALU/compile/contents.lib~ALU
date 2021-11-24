@@ -1,0 +1,8 @@
+16
+~E 1 "./src/TestBench/alu_entity_TB.vhd" 10 alu_entity_tb
+~A 1 "./src/TestBench/alu_entity_TB.vhd" 13 tb_architecture
+~E 1 "./src/ALU.vhd" 7 alu_entity
+~A 1 "./src/ALU.vhd" 13 alu_arch
+~E 1 "./src/ALU_Package.vhd" 4 alu_pack_entity
+~A 1 "./src/ALU_Package.vhd" 11 alu_pack_arch
+~C 1 "./src/TestBench/alu_entity_TB.vhd" 89 testbench_for_alu_entity

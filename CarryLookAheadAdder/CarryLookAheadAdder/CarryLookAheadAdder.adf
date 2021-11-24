@@ -1,0 +1,54 @@
+[Project]
+Current Flow=Generic
+VCS=0
+version=1
+Current Config=compile
+
+[Configurations]
+compile=CarryLookAheadAdder
+
+[Library]
+CarryLookAheadAdder=.\CarryLookAheadAdder.LIB
+
+[$LibMap$]
+CarryLookAheadAdder=.
+Active_lib=
+
+[Settings]
+FLOW_TYPE=HDL
+LANGUAGE=VHDL
+REFRESH_FLOW=1
+FLOWTOOLS=NONE
+FAMILY=
+
+[Groups]
+TestBench=1
+
+[HierarchyViewer]
+SortInfo=u
+HierarchyInformation=cla_16b|structural|0 cla_16b_tb|tb_architecture|0 
+ShowHide=ShowTopLevel
+Selected=
+
+[Files]
+/BitCell.vhd=-1
+/CLA_generator_3carries.vhd=-1
+/CLA_generator_4carries.vhd=-1
+/CLA_4bit.vhd=-1
+/CLA_16bit.vhd=-1
+/untitled.asdb=-1
+/untitled.awc=-1
+TestBench/cla_16b_TB.vhd=-1
+TestBench/cla_16b_TB_runtest.do=-1
+
+[Files.Data]
+.\src\BitCell.vhd=VHDL Source Code
+.\src\CLA_generator_3carries.vhd=VHDL Source Code
+.\src\CLA_generator_4carries.vhd=VHDL Source Code
+.\src\CLA_4bit.vhd=VHDL Source Code
+.\src\CLA_16bit.vhd=VHDL Source Code
+.\src\untitled.asdb=Accelerated Waveform File
+.\src\untitled.awc=Accelerated Waveform Configuration
+.\src\TestBench\cla_16b_TB.vhd=VHDL Test Bench
+.\src\TestBench\cla_16b_TB_runtest.do=Macro
+

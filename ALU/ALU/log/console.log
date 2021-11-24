@@ -1,0 +1,78 @@
+# Design: Design ALU already active.
+# DESIGN: Default Design Language: VHDL
+# DESIGN: Default BDE Language: VHDL
+# DESIGN: Flow Manager: Not Defined
+acom -reorder -work ALU -2002  $DSN/src/ALU_Package.vhd
+# Compile with File Reorder...
+# File: c:\My_Designs\ALU\ALU\src\ALU_Package.vhd
+# Compile Entity "alu_pack_entity"
+# Compile Package "alu_pack"
+# Compile Architecture "alu_pack_arch" of Entity "alu_pack_entity"
+# Top-level unit(s) detected:
+# Entity => alu_pack_entity
+# Compile success 0 Errors 0 Warnings  Analysis time :  94.0 [ms]
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+acom -work ALU -2002  $DSN/src/ALU.vhd
+# Compile...
+# File: c:\My_Designs\ALU\ALU\src\ALU.vhd
+# Compile Entity "alu_entity"
+# Compile Architecture "alu_arch" of Entity "alu_entity"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
+acom -work ALU -2002  $DSN/src/TestBench/alu_entity_TB.vhd
+# Compile...
+# File: c:\My_Designs\ALU\ALU\src\TestBench\alu_entity_TB.vhd
+# Compile Entity "alu_entity_tb"
+# Error: COMP96_0059: alu_entity_TB.vhd : (1, 1): Library "ALU_Components" not found.
+# Error: COMP96_0078: alu_entity_TB.vhd : (2, 5): Unknown identifier "ALU_Components".
+# Error: COMP96_0055: alu_entity_TB.vhd : (2, 5): Cannot find referenced context element.
+# Compile Architecture "TB_ARCHITECTURE" of Entity "alu_entity_tb"
+# Error: COMP96_0056: alu_entity_TB.vhd : (10, 1): Cannot find referenced entity declaration "alu_entity_tb".
+# Compile Configuration "TESTBENCH_FOR_alu_entity"
+# Error: COMP96_0208: alu_entity_TB.vhd : (80, 1): For a configuration of a given design entity, both the configuration declaration and the corresponding entity declaration must reside in the same library.
+# Compile failure 5 Errors 0 Warnings  Analysis time :  79.0 [ms]
+acom -work ALU -2002  $DSN/src/TestBench/alu_entity_TB.vhd
+# Compile...
+# File: c:\My_Designs\ALU\ALU\src\TestBench\alu_entity_TB.vhd
+# Compile Entity "alu_entity_tb"
+# Error: COMP96_0059: alu_entity_TB.vhd : (1, 1): Library "ALU_Components" not found.
+# Error: COMP96_0078: alu_entity_TB.vhd : (2, 5): Unknown identifier "ALU_Components".
+# Error: COMP96_0055: alu_entity_TB.vhd : (2, 5): Cannot find referenced context element.
+# Compile Architecture "TB_ARCHITECTURE" of Entity "alu_entity_tb"
+# Error: COMP96_0056: alu_entity_TB.vhd : (10, 1): Cannot find referenced entity declaration "alu_entity_tb".
+# Compile Configuration "TESTBENCH_FOR_alu_entity"
+# Error: COMP96_0208: alu_entity_TB.vhd : (80, 1): For a configuration of a given design entity, both the configuration declaration and the corresponding entity declaration must reside in the same library.
+# Compile failure 5 Errors 0 Warnings  Analysis time :  15.0 [ms]
+acom -work ALU -2002  $DSN/src/TestBench/alu_entity_TB.vhd
+# Compile...
+# File: c:\My_Designs\ALU\ALU\src\TestBench\alu_entity_TB.vhd
+# Compile Entity "alu_entity_tb"
+# Compile Architecture "TB_ARCHITECTURE" of Entity "alu_entity_tb"
+# Compile Configuration "TESTBENCH_FOR_alu_entity"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+asim -advdataflow  alu_entity_tb tb_architecture
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# asim: Stack memory: 32MB
+# asim: Retval memory: 32MB
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 1655 kB (elbread=1023 elab2=361 kernel=270 sdf=0)
+# KERNEL: ASDB file was created in location c:\My_Designs\ALU\ALU\src\wave.asdb
+#  2:17 PM, Wednesday, November 24, 2021
+#  Simulation has been initialized
+#  Selected Top-Level: alu_entity_tb (tb_architecture)
+# 4 signal(s) traced.
+run 100 ns
+# KERNEL: stopped at time: 100 ns
+#  Simulation has been stopped
+# Adding file c:\My_Designs\ALU\ALU\src\untitled.asdb ... Done
+# Adding file c:\My_Designs\Booth_multiplier\Booth_multiplier\src\untitled.awc ... Done

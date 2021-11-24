@@ -1,0 +1,5 @@
+MESSAGE "File: C:\My_Designs\Adder_subtractor\Adder_subtractor\src\TestBench\as_TB.vhd" 
+MESSAGE "Compile Entity "as_tb"" 
+MESSAGE "Compile Architecture "TB_ARCHITECTURE" of Entity "as_tb"" 
+MESSAGE "Compile Configuration "TESTBENCH_FOR_as"" 
+SUCCESS "Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]" 

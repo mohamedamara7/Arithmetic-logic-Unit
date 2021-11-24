@@ -1,0 +1,12 @@
+[Version]
+Version=8.1
+[Designs]
+ripple_counter=.\ripple_counter\ripple_counter.adf
+[Expand]
+ripple_counter=1
+[Browser]
+sort=order
+mode=none
+[Order]
+order=1
+macro=

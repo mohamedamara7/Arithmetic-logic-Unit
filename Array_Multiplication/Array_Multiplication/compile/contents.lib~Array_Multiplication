@@ -1,0 +1,10 @@
+50
+~E 1 "./src/Full_Adder.vhd" 4 fa
+~A 1 "./src/Full_Adder.vhd" 9 df
+~E 1 "./src/Cell.vhd" 4 cell_entity
+~A 1 "./src/Cell.vhd" 8 cell_architecture
+~E 1 "./src/Combinatorial_Array_Multiplier.vhd" 3 uam
+~A 1 "./src/Combinatorial_Array_Multiplier.vhd" 7 df
+~C 1 "./src/TestBench/uam_TB.vhd" 45 testbench_for_uam
+~E 1 "./src/TestBench/uam_TB.vhd" 4 uam_tb
+~A 1 "./src/TestBench/uam_TB.vhd" 6 tb_architecture

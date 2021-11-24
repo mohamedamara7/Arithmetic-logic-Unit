@@ -1,0 +1,12 @@
+[Version]
+Version=8.1
+[Designs]
+booth_multiplier=.\Booth_multiplier\Booth_multiplier.adf
+[Expand]
+booth_multiplier=1
+[Browser]
+sort=order
+mode=none
+[Order]
+order=1
+macro=

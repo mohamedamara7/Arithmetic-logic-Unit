@@ -1,0 +1,46 @@
+[Project]
+Current Flow=Generic
+VCS=0
+version=1
+Current Config=compile
+
+[Configurations]
+compile=Sequential_Multiplication
+
+[Library]
+Sequential_Multiplication=.\Sequential_Multiplication.LIB
+
+[$LibMap$]
+Sequential_Multiplication=.
+Active_lib=
+
+[Settings]
+FLOW_TYPE=HDL
+LANGUAGE=VHDL
+REFRESH_FLOW=1
+FLOWTOOLS=NONE
+FAMILY=
+
+[Groups]
+TestBench=1
+
+[HierarchyViewer]
+SortInfo=u
+HierarchyInformation=seq_mul|behavioral|0 seq_mul_tb|tb_architecture|0 
+ShowHide=ShowTopLevel
+Selected=
+
+[Files]
+/Sequential_Multiplication.vhd=-1
+/untitled.asdb=-1
+/..\..\..\CarryLookAheadAdder\CarryLookAheadAdder\src\untitled.awc=-1
+TestBench/seq_mul_TB.vhd=-1
+TestBench/seq_mul_TB_runtest.do=-1
+
+[Files.Data]
+.\src\Sequential_Multiplication.vhd=VHDL Source Code
+.\src\untitled.asdb=Accelerated Waveform File
+.\..\..\CarryLookAheadAdder\CarryLookAheadAdder\src\untitled.awc=Accelerated Waveform Configuration
+.\src\TestBench\seq_mul_TB.vhd=VHDL Test Bench
+.\src\TestBench\seq_mul_TB_runtest.do=Macro
+

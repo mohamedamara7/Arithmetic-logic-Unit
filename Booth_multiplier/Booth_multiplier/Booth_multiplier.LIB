@@ -1,0 +1,40 @@
+timestamp=1637755576427
+
+[booth]
+A/behavioral=21|./src/Booth_Multiplier.vhd|10|1*0
+B/behavioral=3*0
+I=0*451
+I/behavioral=0*1172
+M=11|0|v147|1637755530044|./src/Booth_Multiplier.vhd|0*147*0x94a08d3ccb3663cb37e27e1859bbf0859dfacf6f|0*372*0x7bd7e13dc0415552f89596087806a8cf
+M/behavioral=21|0|v147|1637755530046|./src/Booth_Multiplier.vhd|0*612*0xb79d58572717dd8f98d577d9fdae1644a690ae99|0*1079*0x7bd7e13dc0415552f89596087806a8cf
+R=./src/Booth_Multiplier.vhd|5
+
+[booth_tb]
+A/tb_architecture=A/TB_ARCHITECTURE 21|./src/TestBench/booth_TB.vhd|7|1*1693
+B/tb_architecture=3*3358
+I=0*1676
+I/tb_architecture=I/TB_ARCHITECTURE 0*2526
+M=11|0|v147|1637755576325|./src/TestBench/booth_TB.vhd|0*1409*0x8f0280b41b1da58bee09b362724934563ed6bb50|0*1592*0x7bd7e13dc0415552f89596087806a8cf
+M/tb_architecture=M/TB_ARCHITECTURE 21|0|v147|1637755576341|./src/TestBench/booth_TB.vhd|0*1840*0xaa631f180d4ea5c5b325b9b2540eb34c8f49dea3|0*2423*0x7bd7e13dc0415552f89596087806a8cf
+R=./src/TestBench/booth_TB.vhd|5
+
+[testbench_for_booth]
+E=1*3922
+I=0*3116
+M=2|0|v147|1637755576345|./src/TestBench/booth_TB.vhd|0*2758*0xce940928bfc1f5521cb69f23b69867f6fcdd718d|0*3010*0x7bd7e13dc0415552f89596087806a8cf
+R=./src/TestBench/booth_TB.vhd|46
+
+[~A]
+ModifyID=12
+Version=73
+
+[~MFT]
+0=16|0Booth_multiplier.mgf|3116|0
+1=2|1Booth_multiplier.mgf|3922|0
+3=1|3Booth_multiplier.mgf|3358|0
+
+[~U]
+booth=11|0*0|
+booth_tb=11|0*1344|
+testbench_for_booth=TESTBENCH_FOR_booth 2||
+

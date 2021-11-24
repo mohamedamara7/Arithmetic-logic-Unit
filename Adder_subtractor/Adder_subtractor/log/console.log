@@ -1,0 +1,52 @@
+asim -advdataflow  as_tb tb_architecture
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# asim: Stack memory: 32MB
+# asim: Retval memory: 32MB
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 1631 kB (elbread=1023 elab2=336 kernel=271 sdf=0)
+# KERNEL: ASDB file was created in location C:\My_Designs\Adder_subtractor\Adder_subtractor\src\wave.asdb
+#  1:02 PM, Wednesday, November 24, 2021
+#  Simulation has been initialized
+#  Selected Top-Level: as_tb (tb_architecture)
+run 100 ns
+# KERNEL: stopped at time: 100 ns
+endsim
+#  Simulation has been stopped
+# Warning: WAVEFORM: Object matching a not found in C:/My_Designs/Adder_subtractor/Adder_subtractor/src/wave.asdb.
+# Warning: WAVEFORM: Object matching b not found in C:/My_Designs/Adder_subtractor/Adder_subtractor/src/wave.asdb.
+# Warning: WAVEFORM: Object matching op not found in C:/My_Designs/Adder_subtractor/Adder_subtractor/src/wave.asdb.
+# Warning: WAVEFORM: Object matching s not found in C:/My_Designs/Adder_subtractor/Adder_subtractor/src/wave.asdb.
+# Warning: WAVEFORM: Object matching overflow not found in C:/My_Designs/Adder_subtractor/Adder_subtractor/src/wave.asdb.
+# Warning: WAVEFORM: Object matching cout not found in C:/My_Designs/Adder_subtractor/Adder_subtractor/src/wave.asdb.
+asim -advdataflow  as_tb tb_architecture
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# asim: Stack memory: 32MB
+# asim: Retval memory: 32MB
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 1631 kB (elbread=1023 elab2=336 kernel=271 sdf=0)
+# KERNEL: ASDB file was created in location C:\My_Designs\Adder_subtractor\Adder_subtractor\src\wave.asdb
+#  1:03 PM, Wednesday, November 24, 2021
+#  Simulation has been initialized
+#  Selected Top-Level: as_tb (tb_architecture)
+# 6 signal(s) traced.
+run 100 ns
+# KERNEL: stopped at time: 100 ns
+#  Simulation has been stopped
+# Adding file C:\My_Designs\Adder_subtractor\Adder_subtractor\src\untitled.asdb ... Done
+# Adding file C:\My_Designs\Adder_subtractor\Adder_subtractor\src\untitled.awc ... Done

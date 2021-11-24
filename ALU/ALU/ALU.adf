@@ -1,0 +1,48 @@
+[Project]
+Current Flow=Generic
+VCS=0
+version=1
+Current Config=compile
+
+[Configurations]
+compile=ALU
+
+[Library]
+ALU=.\ALU.LIB
+
+[$LibMap$]
+ALU=.
+Active_lib=
+
+[Settings]
+FLOW_TYPE=HDL
+LANGUAGE=VHDL
+REFRESH_FLOW=1
+FLOWTOOLS=NONE
+FAMILY=
+
+[Groups]
+TestBench=1
+
+[HierarchyViewer]
+SortInfo=u
+HierarchyInformation=alu_entity_tb|tb_architecture|0 alu_pack_entity|alu_pack_arch|0 
+ShowHide=ShowTopLevel
+Selected=
+
+[Files]
+/ALU.vhd=-1
+/ALU_Package.vhd=-1
+/untitled.asdb=-1
+/..\..\..\Booth_multiplier\Booth_multiplier\src\untitled.awc=-1
+TestBench/alu_entity_TB.vhd=-1
+TestBench/alu_entity_TB_runtest.do=-1
+
+[Files.Data]
+.\src\ALU.vhd=VHDL Source Code
+.\src\ALU_Package.vhd=VHDL Source Code
+.\src\untitled.asdb=Accelerated Waveform File
+.\..\..\Booth_multiplier\Booth_multiplier\src\untitled.awc=Accelerated Waveform Configuration
+.\src\TestBench\alu_entity_TB.vhd=VHDL Test Bench
+.\src\TestBench\alu_entity_TB_runtest.do=Macro
+

@@ -1,0 +1,6 @@
+.\src\BitCell.vhd
+.\src\CLA_generator_3carries.vhd
+.\src\CLA_generator_4carries.vhd
+.\src\CLA_4bit.vhd
+.\src\CLA_16bit.vhd
+.\src\TestBench\cla_16b_TB.vhd

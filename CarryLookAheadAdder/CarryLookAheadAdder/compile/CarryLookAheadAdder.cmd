@@ -1,0 +1,1 @@
+-w -s "c:\My_Designs\CarryLookAheadAdder\library.cfg"  -j "c:\My_Designs\CarryLookAheadAdder\CarryLookAheadAdder\projlib.cfg"  -d "c:\My_Designs\CarryLookAheadAdder\CarryLookAheadAdder\compile"   -work CarryLookAheadAdder  -dbg -e 100 -2002 "c:\\My_Designs\\CarryLookAheadAdder\\CarryLookAheadAdder\\src\\TestBench\\cla_16b_TB.vhd" 

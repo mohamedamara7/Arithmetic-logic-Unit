@@ -1,0 +1,5 @@
+MESSAGE "File: c:\My_Designs\CarryLookAheadAdder\CarryLookAheadAdder\src\TestBench\cla_16b_TB.vhd" 
+MESSAGE "Compile Entity "cla_16b_tb"" 
+MESSAGE "Compile Architecture "TB_ARCHITECTURE" of Entity "cla_16b_tb"" 
+MESSAGE "Compile Configuration "TESTBENCH_FOR_cla_16b"" 
+SUCCESS "Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]" 

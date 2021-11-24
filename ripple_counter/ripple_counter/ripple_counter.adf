@@ -1,0 +1,48 @@
+[Project]
+Current Flow=Generic
+VCS=0
+version=1
+Current Config=compile
+
+[Configurations]
+compile=ripple_counter
+
+[Library]
+ripple_counter=.\ripple_counter.LIB
+
+[$LibMap$]
+ripple_counter=.
+Active_lib=
+
+[Settings]
+FLOW_TYPE=HDL
+LANGUAGE=VHDL
+REFRESH_FLOW=1
+FLOWTOOLS=NONE
+FAMILY=
+
+[Groups]
+
+[HierarchyViewer]
+SortInfo=u
+HierarchyInformation=r_cnt_tb|tb_architecture|0 
+ShowHide=ShowTopLevel
+Selected=
+
+[Files]
+/t_flipflop.vhd=-1
+/ripple_cnt.vhd=-1
+/untitled.asdb=-1
+/untitled.awc=-1
+/inverter.vhd=-1
+/dff.vhd=-1
+/ripple_cnt_dff.vhd=-1
+
+[Files.Data]
+.\src\t_flipflop.vhd=VHDL Source Code
+.\src\ripple_cnt.vhd=VHDL Source Code
+.\src\untitled.asdb=Accelerated Waveform File
+.\src\untitled.awc=Accelerated Waveform Configuration
+.\src\inverter.vhd=VHDL Source Code
+.\src\dff.vhd=VHDL Source Code
+.\src\ripple_cnt_dff.vhd=VHDL Source Code

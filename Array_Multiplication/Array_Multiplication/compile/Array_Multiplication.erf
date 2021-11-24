@@ -1,0 +1,5 @@
+MESSAGE "File: c:\My_Designs\Array_Multiplication\Array_Multiplication\src\TestBench\uam_TB.vhd" 
+MESSAGE "Compile Entity "uam_tb"" 
+MESSAGE "Compile Architecture "TB_ARCHITECTURE" of Entity "uam_tb"" 
+MESSAGE "Compile Configuration "TESTBENCH_FOR_uam"" 
+SUCCESS "Compile success 0 Errors 0 Warnings  Analysis time :  78.0 [ms]" 

@@ -1,0 +1,5 @@
+MESSAGE "File: c:\My_Designs\Sequential_Multiplication\Sequential_Multiplication\src\TestBench\seq_mul_TB.vhd" 
+MESSAGE "Compile Entity "seq_mul_tb"" 
+MESSAGE "Compile Architecture "TB_ARCHITECTURE" of Entity "seq_mul_tb"" 
+MESSAGE "Compile Configuration "TESTBENCH_FOR_seq_mul"" 
+SUCCESS "Compile success 0 Errors 0 Warnings  Analysis time :  0.2 [s]" 

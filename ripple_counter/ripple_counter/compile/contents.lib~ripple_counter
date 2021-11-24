@@ -1,0 +1,13 @@
+570
+~E 1 "./src/ripple_cnt.vhd" 4 r_cnt
+~A 1 "./src/ripple_cnt_dff.vhd" 10 structural
+~E 1 "./src/inverter.vhd" 4 inverter
+~A 1 "./src/inverter.vhd" 9 behav
+~E 1 "./src/dff.vhd" 5 dff
+~A 1 "./src/dff.vhd" 10 behav
+~E 1 "./src/mux_2_1.vhd" 4 mux
+~C 1 "./src/testbench/r_cnt_tb.vhd" 127 testbench_for_r_cnt
+~E 1 "./src/testbench/r_cnt_tb.vhd" 6 r_cnt_tb
+~A 1 "./src/testbench/r_cnt_tb.vhd" 9 tb_architecture
+~E 1 "./src/t_flipflop.vhd" 5 tff
+~A 1 "./src/t_flipflop.vhd" 10 behav

@@ -1,0 +1,18 @@
+elbread.dll ver. 1.0.5.375 Wed Nov 24 14:10:29 2021
+
+
+------------------------------------------------------
+Entity      | Architecture    | Library             
+------------------------------------------------------
+non_res_tb  | tb_architecture | non_restoring_division
+non_res     | behavioral      | non_restoring_division
+------------------------------------------------------
+
+-------------------------
+Package         | Library
+-------------------------
+standard        | std
+textio          | std
+std_logic_1164  | ieee
+numeric_std     | ieee
+-------------------------

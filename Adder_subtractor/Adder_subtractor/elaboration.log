@@ -1,0 +1,18 @@
+elbread.dll ver. 1.0.5.375 Wed Nov 24 13:03:04 2021
+
+
+--------------------------------------------
+Entity  | Architecture    | Library       
+--------------------------------------------
+as_tb   | tb_architecture | adder_subtractor
+as      | structural      | adder_subtractor
+fa      | df              | adder_subtractor
+--------------------------------------------
+
+-------------------------
+Package         | Library
+-------------------------
+standard        | std
+textio          | std
+std_logic_1164  | ieee
+-------------------------

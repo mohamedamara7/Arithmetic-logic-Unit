@@ -1,0 +1,60 @@
+# Design: Design CarryLookAheadAdder already active.
+# DESIGN: Default Design Language: VHDL
+# DESIGN: Default BDE Language: VHDL
+# DESIGN: Flow Manager: Not Defined
+acom -reorder -work CarryLookAheadAdder -2002  $DSN/src/bitcell.vhd $DSN/src/cla_generator_3carries.vhd $DSN/src/cla_generator_4carries.vhd $DSN/src/cla_4bit.vhd $DSN/src/cla_16bit.vhd
+# Compile with File Reorder...
+# File: c:\My_Designs\CarryLookAheadAdder\CarryLookAheadAdder\src\bitcell.vhd
+# Compile Entity "bc"
+# Compile Architecture "df" of Entity "bc"
+# File: c:\My_Designs\CarryLookAheadAdder\CarryLookAheadAdder\src\cla_generator_3carries.vhd
+# Compile Entity "clag3"
+# Compile Architecture "df" of Entity "clag3"
+# File: c:\My_Designs\CarryLookAheadAdder\CarryLookAheadAdder\src\cla_generator_4carries.vhd
+# Compile Entity "clag4"
+# Compile Architecture "df" of Entity "clag4"
+# File: c:\My_Designs\CarryLookAheadAdder\CarryLookAheadAdder\src\cla_4bit.vhd
+# Compile Entity "cla_4b"
+# Compile Architecture "structural" of Entity "cla_4b"
+# File: c:\My_Designs\CarryLookAheadAdder\CarryLookAheadAdder\src\cla_16bit.vhd
+# Compile Entity "cla_16b"
+# Compile Architecture "structural" of Entity "cla_16b"
+# Top-level unit(s) detected:
+# Entity => cla_16b
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.4 [s]
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+acom -work CarryLookAheadAdder -2002  $DSN/src/TestBench/cla_16b_TB.vhd
+# Compile...
+# File: c:\My_Designs\CarryLookAheadAdder\CarryLookAheadAdder\src\TestBench\cla_16b_TB.vhd
+# Compile Entity "cla_16b_tb"
+# Compile Architecture "TB_ARCHITECTURE" of Entity "cla_16b_tb"
+# Compile Configuration "TESTBENCH_FOR_cla_16b"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# Error: Accelerated Waveform: Simulation database is not connected.
+asim -advdataflow  cla_16b_tb tb_architecture
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# asim: Stack memory: 32MB
+# asim: Retval memory: 32MB
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 1784 kB (elbread=1024 elab2=486 kernel=274 sdf=0)
+# KERNEL: ASDB file was created in location c:\My_Designs\CarryLookAheadAdder\CarryLookAheadAdder\src\wave.asdb
+#  1:13 PM, Wednesday, November 24, 2021
+#  Simulation has been initialized
+#  Selected Top-Level: cla_16b_tb (tb_architecture)
+# 7 signal(s) traced.
+run 100 ns
+# KERNEL: stopped at time: 100 ns
+#  Simulation has been stopped
+# Adding file c:\My_Designs\CarryLookAheadAdder\CarryLookAheadAdder\src\untitled.asdb ... Done
+# Adding file c:\My_Designs\CarryLookAheadAdder\CarryLookAheadAdder\src\untitled.awc ... Done

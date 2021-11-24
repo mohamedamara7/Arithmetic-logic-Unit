@@ -1,0 +1,5 @@
+MESSAGE "File: c:\My_Designs\non_restoring_division\non_restoring_division\src\TestBench\non_res_TB.vhd" 
+MESSAGE "Compile Entity "non_res_tb"" 
+MESSAGE "Compile Architecture "TB_ARCHITECTURE" of Entity "non_res_tb"" 
+MESSAGE "Compile Configuration "TESTBENCH_FOR_non_res"" 
+SUCCESS "Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]" 

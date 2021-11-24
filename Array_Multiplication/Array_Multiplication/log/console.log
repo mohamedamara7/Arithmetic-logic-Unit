@@ -1,0 +1,115 @@
+# Design: Design Array_Multiplication already active.
+# DESIGN: Default Design Language: VHDL
+# DESIGN: Default BDE Language: VHDL
+# DESIGN: Flow Manager: Not Defined
+acom -reorder -work Array_Multiplication -2002  $DSN/src/Combinatorial_Array_Multiplier.vhd
+# Compile with File Reorder...
+# File: c:\My_Designs\Array_Multiplication\Array_Multiplication\src\Combinatorial_Array_Multiplier.vhd
+# Compile Entity "uam"
+# Compile Architecture "df" of Entity "uam"
+# Top-level unit(s) detected:
+# Entity => uam
+# Warning: ELAB1_0026: Combinatorial_Array_Multiplier.vhd : (17, 0): There is no default binding for component "bc".(No entity named "bc" was found).
+# Compile success 0 Errors 1 Warnings  Analysis time :  0.2 [s]
+# ELBREAD: Elaboration process.
+# ELBREAD: Warning: Component /l0/cell : bc not bound.
+# ELBREAD: Warning: Component /l2/cell : bc not bound.
+# ELBREAD: Warning: Component /l3/l4/cell : bc not bound.
+# ELBREAD: Elaboration time 0.7 [s].
+acom -work Array_Multiplication -2002  $DSN/src/Full_Adder.vhd
+# Compile...
+# File: c:\My_Designs\Array_Multiplication\Array_Multiplication\src\Full_Adder.vhd
+# Compile Entity "fa"
+# Compile Architecture "df" of Entity "fa"
+# Compile success 0 Errors 0 Warnings  Analysis time :  94.0 [ms]
+acom -work Array_Multiplication -2002  $DSN/src/Cell.vhd
+# Compile...
+# File: c:\My_Designs\Array_Multiplication\Array_Multiplication\src\Cell.vhd
+# Compile Entity "cell_entity"
+# Compile Architecture "cell_architecture" of Entity "cell_entity"
+# Error: COMP96_0115: Cell.vhd : (14, 18): Actual is not a globally static expression.
+# Compile failure 1 Errors 0 Warnings  Analysis time :  15.0 [ms]
+acom -work Array_Multiplication -2002  $DSN/src/Cell.vhd
+# Compile...
+# File: c:\My_Designs\Array_Multiplication\Array_Multiplication\src\Cell.vhd
+# Compile Entity "cell_entity"
+# Compile Architecture "cell_architecture" of Entity "cell_entity"
+# Error: COMP96_0115: Cell.vhd : (14, 18): Actual is not a globally static expression.
+# Compile failure 1 Errors 0 Warnings  Analysis time :  31.0 [ms]
+acom -work Array_Multiplication -2002  $DSN/src/Cell.vhd
+# Compile...
+# File: c:\My_Designs\Array_Multiplication\Array_Multiplication\src\Cell.vhd
+# Compile Entity "cell_entity"
+# Compile Architecture "cell_architecture" of Entity "cell_entity"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.2 [s]
+acom -work Array_Multiplication -2002  $DSN/src/Combinatorial_Array_Multiplier.vhd
+# Compile...
+# File: c:\My_Designs\Array_Multiplication\Array_Multiplication\src\Combinatorial_Array_Multiplier.vhd
+# Compile Entity "uam"
+# Compile Architecture "df" of Entity "uam"
+# Warning: ELAB1_0026: Combinatorial_Array_Multiplier.vhd : (17, 0): There is no default binding for component "bc".(No entity named "bc" was found).
+# Compile success 0 Errors 1 Warnings  Analysis time :  94.0 [ms]
+acom -work Array_Multiplication -2002  $DSN/src/Combinatorial_Array_Multiplier.vhd
+# Compile...
+# File: c:\My_Designs\Array_Multiplication\Array_Multiplication\src\Combinatorial_Array_Multiplier.vhd
+# Compile Entity "uam"
+# Compile Architecture "df" of Entity "uam"
+# Error: COMP96_0078: Combinatorial_Array_Multiplier.vhd : (17, 8): Unknown identifier "bc".
+# Error: COMP96_0134: Combinatorial_Array_Multiplier.vhd : (17, 8): Cannot find component declaration.
+# Error: COMP96_0078: Combinatorial_Array_Multiplier.vhd : (20, 8): Unknown identifier "bc".
+# Error: COMP96_0134: Combinatorial_Array_Multiplier.vhd : (20, 8): Cannot find component declaration.
+# Error: COMP96_0078: Combinatorial_Array_Multiplier.vhd : (24, 9): Unknown identifier "bc".
+# Error: COMP96_0134: Combinatorial_Array_Multiplier.vhd : (24, 9): Cannot find component declaration.
+# Compile failure 6 Errors 0 Warnings  Analysis time :  16.0 [ms]
+acom -work Array_Multiplication -2002  $DSN/src/Combinatorial_Array_Multiplier.vhd
+# Compile...
+# File: c:\My_Designs\Array_Multiplication\Array_Multiplication\src\Combinatorial_Array_Multiplier.vhd
+# Compile Entity "uam"
+# Compile Architecture "df" of Entity "uam"
+# Warning: ELAB1_0026: Combinatorial_Array_Multiplier.vhd : (17, 0): There is no default binding for component "cell_entity".(Port "previous_pp" is not on the entity).
+# Compile success 0 Errors 1 Warnings  Analysis time :  94.0 [ms]
+acom -work Array_Multiplication -2002  $DSN/src/Cell.vhd
+# Compile...
+# File: c:\My_Designs\Array_Multiplication\Array_Multiplication\src\Cell.vhd
+# Compile Entity "cell_entity"
+# Compile Architecture "cell_architecture" of Entity "cell_entity"
+# Compile success 0 Errors 0 Warnings  Analysis time :  94.0 [ms]
+acom -work Array_Multiplication -2002  $DSN/src/Combinatorial_Array_Multiplier.vhd
+# Compile...
+# File: c:\My_Designs\Array_Multiplication\Array_Multiplication\src\Combinatorial_Array_Multiplier.vhd
+# Compile Entity "uam"
+# Compile Architecture "df" of Entity "uam"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
+acom -work Array_Multiplication -2002  $DSN/src/TestBench/uam_TB.vhd
+# Compile...
+# File: c:\My_Designs\Array_Multiplication\Array_Multiplication\src\TestBench\uam_TB.vhd
+# Compile Entity "uam_tb"
+# Compile Architecture "TB_ARCHITECTURE" of Entity "uam_tb"
+# Compile Configuration "TESTBENCH_FOR_uam"
+# Compile success 0 Errors 0 Warnings  Analysis time :  78.0 [ms]
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+asim -advdataflow  uam_tb tb_architecture
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# asim: Stack memory: 32MB
+# asim: Retval memory: 32MB
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 1837 kB (elbread=1026 elab2=531 kernel=279 sdf=0)
+# KERNEL: ASDB file was created in location c:\My_Designs\Array_Multiplication\Array_Multiplication\src\wave.asdb
+#  1:49 PM, Wednesday, November 24, 2021
+#  Simulation has been initialized
+#  Selected Top-Level: uam_tb (tb_architecture)
+# 3 signal(s) traced.
+run 100 ns
+# KERNEL: stopped at time: 100 ns
+#  Simulation has been stopped
+# Adding file c:\My_Designs\Array_Multiplication\Array_Multiplication\src\untitled.asdb ... Done
+# Adding file c:\My_Designs\CarryLookAheadAdder\CarryLookAheadAdder\src\untitled.awc ... Done

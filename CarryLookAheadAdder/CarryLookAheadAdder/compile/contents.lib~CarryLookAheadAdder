@@ -1,0 +1,14 @@
+29
+~E 1 "./src/cla_4bit.vhd" 4 cla_4b
+~A 1 "./src/cla_4bit.vhd" 10 structural
+~E 1 "./src/cla_16bit.vhd" 4 cla_16b
+~A 1 "./src/cla_16bit.vhd" 11 structural
+~E 1 "./src/bitcell.vhd" 4 bc
+~A 1 "./src/bitcell.vhd" 10 df
+~E 1 "./src/TestBench/cla_16b_TB.vhd" 4 cla_16b_tb
+~A 1 "./src/TestBench/cla_16b_TB.vhd" 6 tb_architecture
+~E 1 "./src/cla_generator_4carries.vhd" 4 clag4
+~A 1 "./src/cla_generator_4carries.vhd" 11 df
+~E 1 "./src/cla_generator_3carries.vhd" 5 clag3
+~A 1 "./src/cla_generator_3carries.vhd" 12 df
+~C 1 "./src/TestBench/cla_16b_TB.vhd" 61 testbench_for_cla_16b

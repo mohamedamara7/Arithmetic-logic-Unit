@@ -1,0 +1,4 @@
+MESSAGE "File: C:\My_Designs\ripple_counter\ripple_counter\src\ripple_cnt_dff.vhd" 
+MESSAGE "Compile Entity "r_cnt"" 
+MESSAGE "Compile Architecture "structural" of Entity "r_cnt"" 
+SUCCESS "Compile success 0 Errors 0 Warnings  Analysis time :  16.0 [ms]" 

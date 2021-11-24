@@ -1,0 +1,6 @@
+12
+~E 1 "./src/TestBench/non_res_TB.vhd" 5 non_res_tb
+~A 1 "./src/TestBench/non_res_TB.vhd" 7 tb_architecture
+~E 1 "./src/non_restoring_division.vhd" 5 non_res
+~A 1 "./src/non_restoring_division.vhd" 11 behavioral
+~C 1 "./src/TestBench/non_res_TB.vhd" 49 testbench_for_non_res

@@ -1,0 +1,1 @@
+-w -s "c:\My_Designs\Array_Multiplication\library.cfg"  -j "c:\My_Designs\Array_Multiplication\Array_Multiplication\projlib.cfg"  -d "c:\My_Designs\Array_Multiplication\Array_Multiplication\compile"   -work Array_Multiplication  -dbg -e 100 -2002 "c:\\My_Designs\\Array_Multiplication\\Array_Multiplication\\src\\TestBench\\uam_TB.vhd" 
